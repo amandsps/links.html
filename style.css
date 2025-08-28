@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.contato-links {
+  display: flex;
+  justify-content: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contato-links {
+  display: flex;
+  flex-direction: column; 
+  align-items: column;    
+  gap: 15px;              
+}
+
+
+.whatsapp {
+  background-color: #25D366;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #feda75, #d62976, #962fbf);
+}
+
+.x {
+  background-color: #000;
+}
+
+.tiktok {
+  background-color: #010101;
+}
+
+.email {
+  background-color: #D44638;
+}
+
+.contato-links a:hover {
+  opacity: 0.8;
+}
